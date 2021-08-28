@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=caesarcipher
+comment1.params=input\ key
+comment1.target=java.lang.String\ encrypt(java.lang.String,\ int)
+comment10.params=
+comment10.target=void\ testdecryptwokets()
+comment11.params=
+comment11.target=void\ testencrypt()
+comment2.params=input\ key1\ key2
+comment2.target=java.lang.String\ encryptwokeys(java.lang.String,\ int,\ int)
+comment3.params=f\ count
+comment3.target=void\ wordlengths(edu.duke.FileResource,\ int[])
+comment4.params=input
+comment4.target=int[]\ countleters(java.lang.String)
+comment5.params=input
+comment5.target=int\ maxindex(int[])
+comment6.params=encrypted
+comment6.target=java.lang.String\ decrypt(java.lang.String)
+comment7.params=input\ start
+comment7.target=java.lang.String\ splitstring(java.lang.String,\ int)
+comment8.params=encrypted
+comment8.target=java.lang.String\ decryptwokeys(java.lang.String)
+comment9.params=
+comment9.target=void\ testwordlength()
+numComments=12

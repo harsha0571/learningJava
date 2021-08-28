@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=miniproject
+comment1.params=parser
+comment1.target=void\ totalbirths(org.apache.commons.csv.CSVParser)
+comment2.params=year\ gender\ name
+comment2.target=int\ getrank(int,\ java.lang.String,\ java.lang.String)
+comment3.params=year\ rank\ gender
+comment3.target=java.lang.String\ getname(int,\ int,\ java.lang.String)
+comment4.params=name\ year\ newyear\ gender
+comment4.target=java.lang.String\ nameinnewyear(java.lang.String,\ int,\ int,\ java.lang.String)
+comment5.params=name\ gender
+comment5.target=int\ yearofhighestrank(java.lang.String,\ java.lang.String)
+comment6.params=name\ gender
+comment6.target=double\ getavgrank(java.lang.String,\ java.lang.String)
+comment7.params=name\ gender
+comment7.target=int\ totalbirthsrankedhigher(java.lang.String,\ java.lang.String)
+comment8.params=
+comment8.target=void\ testing()
+numComments=9

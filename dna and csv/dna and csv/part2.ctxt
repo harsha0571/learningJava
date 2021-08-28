@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=part2
+comment1.params=dna\ startcodon\ stopcodon
+comment1.target=java.lang.String\ findsimplegene(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=void\ testsimplegene()
+numComments=3

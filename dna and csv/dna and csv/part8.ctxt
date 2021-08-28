@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=part8
+comment1.params=parser
+comment1.target=org.apache.commons.csv.CSVRecord\ incold(org.apache.commons.csv.CSVParser)
+comment2.params=parser
+comment2.target=org.apache.commons.csv.CSVRecord\ inh(org.apache.commons.csv.CSVParser)
+comment3.params=
+comment3.target=void\ tester()
+comment4.params=parser
+comment4.target=double\ inavg(org.apache.commons.csv.CSVParser)
+comment5.params=parser\ value
+comment5.target=double\ inavgh(org.apache.commons.csv.CSVParser,\ int)
+comment6.params=
+comment6.target=void\ tester2()
+comment7.params=
+comment7.target=void\ tester3()
+comment8.params=
+comment8.target=void\ tester4()
+numComments=9
