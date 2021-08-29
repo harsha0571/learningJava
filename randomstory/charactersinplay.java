@@ -41,7 +41,7 @@ public class charactersinplay {
   public void tester (){
     findallcharacters();
     //for(int i =0; i<character.size(); i++){System.out.println(character.get(i) + " " + freq.get(i) );}
-    numparts(10,15);
+    numparts(0,99);
     int max=0;
     for(int k =0; k<character.size(); k++){
     if(freq.get(k)>freq.get(max)){

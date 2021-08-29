@@ -9,9 +9,8 @@ public class Codon {
     int present = 0;
     while(present+3 < dna.length()-1)
     {
-      
       String codon =frame.substring(present,present+3);
-      System.out.println(codon.length());
+      //System.out.println(codon.length());
       if(codon.length()<3){
         break;
       }
@@ -40,7 +39,6 @@ public class Codon {
         }
      
     }
-    
     return m ;
     }
   public void printCodons(int start , int end){
@@ -65,7 +63,7 @@ public class Codon {
     String com = mostCommonCodon();
     System.out.println("and the most codon is  "+com+" with count "+ map.get(com));
     System.out.println("Counts of codons between 1 and 5 inclusive are:");
-    printCodons(1,5);
+    printCodons(7,7);
     map.clear();
     }
     
