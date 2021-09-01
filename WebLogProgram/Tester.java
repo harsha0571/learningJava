@@ -17,9 +17,29 @@ public class Tester
         System.out.println(le2);
     }
     
-    public static void testLogAnalyzer() {
+    public void testLogAnalyzer() {
         LogAnalyzer test = new LogAnalyzer();
         test.readFile("short-test_log");
         test.printAll();
+    }
+    
+    public void testUniqueIP(){
+    LogAnalyzer test = new LogAnalyzer();
+    test.readFile("short-test_log");
+    int unique = test.countUniqueIPs();
+    System.out.println("no of unique ips:" + unique);
+    }
+    public void testStatusCode(){
+    LogAnalyzer test = new LogAnalyzer();
+    test.readFile("short-test_log");
+    test.printAllHigherThanNum(200);
+    }
+    public void testVisitsOnDay(){
+    LogAnalyzer test = new LogAnalyzer();
+    test.readFile("weblog-short_log");
+    ArrayList<LogEntry> list = test.uniqueIPVisitsOnDay("Sep 14");
+    System.out.println("arraylist of "+list.size()+" items");
+    ArrayList<LogEntry> list2 = test.uniqueIPVisitsOnDay("Sep 30");
+    System.out.println("arraylist of "+list2.size()+" items");
     }
 }
