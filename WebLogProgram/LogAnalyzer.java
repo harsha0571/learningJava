@@ -61,6 +61,19 @@ public class LogAnalyzer
         
         return uniqueIps;
         }
+     public int countUniqueIPsInRange(int low , int high){
+        ArrayList<String> uniqueIps = new ArrayList<String>();
+        int inRange = 0;
+         for(LogEntry log:records){
+            String ip = log.getIpAddress();
+            int code = log.getStatusCode();
+            if(!uniqueIps.contains(ip) && (code>=low && code <= high)){
+            uniqueIps.add(ip);
+            inRange++;
+            }
+          }
+          return inRange;
+        }
      public void printAll() {
          for (LogEntry le : records) {
              System.out.println(le);

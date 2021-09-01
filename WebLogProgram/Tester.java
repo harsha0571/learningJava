@@ -42,4 +42,12 @@ public class Tester
     ArrayList<LogEntry> list2 = test.uniqueIPVisitsOnDay("Sep 30");
     System.out.println("arraylist of "+list2.size()+" items");
     }
+    public void testIPsInRange(){
+    LogAnalyzer test = new LogAnalyzer();
+    test.readFile("short-test_log");
+    int no = test.countUniqueIPsInRange(200,299);
+    System.out.println("200-299: " + no);
+    no = test.countUniqueIPsInRange(300,399);
+    System.out.println("300-399: " + no);
+    }
 }
