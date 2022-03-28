@@ -1,9 +1,8 @@
-package CNS_LAB;
 
 import java.net.*;
 import java.io.*;
 
-public class server {
+public class tcpserver {
     public static void main(String args[]) throws Exception {
         try {
 

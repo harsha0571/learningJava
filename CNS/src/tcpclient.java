@@ -1,9 +1,8 @@
-package CNS_LAB;
 
 import java.net.*;
 import java.io.*;
 
-public class client {
+public class tcpclient {
     public static void main(String args[]) throws Exception
 
     {
